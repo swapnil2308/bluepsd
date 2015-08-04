@@ -1,0 +1,392 @@
+/*----- Global Tags Here(Affects the Entire Page ) -----*/
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+/*----- Global Tags Ends Here -----
+
+-----Header Starts Here -----*/
+.OuterHeadWrapp{
+	width: auto;
+	font-family: verdana;
+	font-size: 11px;
+	background-color: #242628;
+	
+}
+.InnerHeadWrapp{
+	width: 960px;
+	height: 10px;
+	margin: 0 auto;
+	padding: 20px 70px;
+	background-color: #242628;
+}
+.subscribe{
+	color: #485766	;
+	float: left;
+}
+.PostCommentEmail li{
+	color: #485766;
+	list-style-type: none;
+	float: left;
+}
+.PostCommentEmail li a{
+	color: #6a87a3;
+	text-decoration: none;
+	float: left;
+}
+.search{
+	padding: 0 5px;
+	float: right;
+}
+.search li{
+	padding: 0 5px;
+	float: left;
+}
+/*----- Header Ends here -----
+ 
+----- MainWrapp Wraps -----
+**Navigation
+**Cover
+**MainContent
+*/
+.MainWrapp{
+	background-color: #1d212a;
+}
+/*-----  Navigation Starts Here -----*/
+.OuterNavWrapp{
+	width: 1100px;
+	margin: 0 auto;
+	clear: both;
+}
+.InnerNavWrapp{
+	width: 890px;
+	height: 60px;
+	margin: 0 70px 0 80px;
+	padding-top: 30px;
+}
+.Logo{
+	float: left;
+}
+.LogoLine{
+	clear: both;
+	margin-top: 5px;
+	float: left;	
+	font-family: verdana;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #485766;
+}
+.Nav{
+	float: right;
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.Nav a{
+	text-decoration: none;
+	float: left;
+	color: #7a8090;
+	padding: 10px 15px;
+}
+.Nav a:hover{
+	color: #ffffff;
+	background-color: #16191f;
+}
+/* ----- Navigation ends Here -----
+
+-------- Cover Starts Here ----- */
+.OuterCoverWrapp{
+	width: 1100px;
+	margin: 0 auto;
+}
+.CoverWrapp{
+	width: 880px;
+	margin: 20px 70px 0 80px;
+}
+.coverimg{
+	border: 10px solid white;
+}
+/*----- Cover Ends Here-----
+
+-----Main Content Starts Here
+**ColumnOne
+**ColumnTwo
+**ColumnThree -----*/
+.OuterMaincontentWrapp{
+	background-color: #232631;
+	width: 950px;
+	height: 415px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ColumnOne{
+	float: left;
+	width: 290px;
+	margin: 20px;
+	background-color: #1d202a;
+}
+.ColumnMainHead{
+	height: 15px;
+	padding: 15px 20px;
+	background-color: #3d475f;
+	margin: 0;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	color: #ffffff;
+	clear: both;
+}
+.BlockImg{
+	margin: 20px;
+}
+.SubHead{
+	font-family: arial;
+	color: #ffffff;
+	font-size: 18px;
+	padding-left: 30px;
+	margin: 0px;
+}
+.SubDate{
+	font-family: arial;
+	font-size: 12px;
+	color: #6a7796;
+	padding-left: 30px;
+}
+.SubDate a{
+	color: #3f9fcf;
+	text-decoration: none;
+}
+.SubBody{
+	font-family: arial;
+	color: #6a7796;
+	width: 240px;
+	font-size: 14px;
+	padding-left: 30px;
+	margin-bottom: 0;
+}
+.ButtonOne{
+	float: left;
+	width: 85px;
+	background-color: #11719f;
+	margin: 25px 0 20px 20px;
+	padding: 15px 10px;
+}
+.ButtonOne a{
+	color: #ffffff;
+	font-family: arial;
+	font-size: 12px;
+}
+.ButtonTwo{
+	float: left;
+	padding: 15px 10px;
+	background-color: #11719f;
+	margin: 25px 0 0 20px; 
+}
+.ButtonTwo a{
+	color: #ffffff;
+	font-family: arial;
+	font-size: 12px;
+}
+.ButtonThree{
+	float: left;
+	width: 85px;
+	background-color: #11719f;
+	margin: 25px 0 0 10px; 
+	padding: 15px 10px;
+}
+.ButtonThree a{
+	color: #ffffff;
+	font-family: arial;
+	font-size: 12px;
+}
+.ColumnTwo{
+	float: left;
+	font-family: arial;
+	width: 290px;
+	margin: 20px 0;
+	padding-bottom: 15px;
+	background-color: #1d202a;
+}
+.ColumnThree{
+	float: left;
+	width: 290px;
+	height: 300px;
+	margin: 20px;
+}
+.vertical{
+	width: 265px;
+	height: 185px;
+	background-color: #1d202a;
+	padding: 20px 0 20px 25px;
+	margin: 0;
+}
+.verticalLeft{
+	float: left;
+}
+.vertical img{
+	margin-bottom: 20px;
+	clear: both;
+}
+.VerticalSubHead{
+	font-family: arial;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 45px;
+}
+.VerticalSubBody{
+	font-family: arial;
+	color: #6a7796;
+	font-size: 14px;
+	padding-left: 45px;
+	margin-bottom: 20px;
+}
+.horizontal{
+	margin-top: 10px;
+	width: 252px;
+	height: 45px;
+	padding: 15px 20px 20px 20px;
+	float: left;
+	background-color: #1d202a; 
+}
+.horizontal img{
+	float: left;
+	padding: 5px;
+}
+/*-----Main Content Ends Here-----
+
+----- Bottom Starts Here */
+.OuterBottomWrapp{
+	margin-top: 7px;
+	clear: both;
+}
+.InnerBottomWrapp{
+	width: 1100px;
+	height: 225px;
+	margin: 0 auto;
+	background-color: #0f131f;
+}
+.about{
+	float: left;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color: #8c94ac;
+	padding: 35px 0 0 50px; 
+}
+.about p{
+	margin: 0;
+	padding-bottom: 25px;
+}
+.about li{
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: normal;
+}
+.about li a{
+	color: #606574;
+}
+.categories{
+	float: left;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color: #8c94ac;
+	padding: 35px 0 0 55px; 
+}
+.categories p{
+	margin: 0;
+	padding-bottom: 25px;
+}
+.categories li{
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: normal;
+}
+.categories li a{
+	color: #606574;
+}
+.gallery{
+	float: left;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color: #8c94ac;
+	padding: 
+}
+.gallery p{
+	margin: 0px;
+	padding: 35px 0 0 60px;
+}
+.gallery li{
+	float: left;
+	padding: 5px;
+	margin: 5px;
+	background-color: #1b2232;
+}
+.TwitterUpdates{
+	width: 300px;
+	float: left;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color: #8c94ac;
+	padding: 35px 0 0 50px;
+}
+.TwitterUpdates p{
+	margin: 0;
+	padding-bottom: 25px;
+}
+.TwitterText{
+	width: 275px;
+	height: 85px;
+	padding: 15px 15px 15px 10px;
+	background-color: #191f2f;
+	font-family: verdana;
+	font-weight: normal;
+	font-size: 12px;
+	color: #417893;
+}
+.TwitterText a{
+	color: #b8e2f6;
+}
+.bird{
+	float: right;
+}
+/* ----- Bottom Ends Here ----- 
+
+----- Footer Starts Here ----- */
+.OuterFooterWrapp{
+	clear: both;
+}
+.InnerFooterWrapp{
+	width: 1100px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #040507;
+	color: #7b89ab;
+	font-size: 11px;
+	font-family: verdana;
+}
+.InnerFooterWrapp p{
+	float: left;
+	margin: 0;
+	padding: 25px 0 0 70px;
+}
+.footer{
+	float: right;
+}
+.InnerFooterWrapp ul{
+	padding: 15px 80px 0 0;
+}
+.InnerFooterWrapp ul li{
+	float: left;
+	color: #7b89ab;
+	margin: 0;
+}
+.InnerFooterWrapp a{
+	color: #7b89ab;
+}

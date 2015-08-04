@@ -1,0 +1,363 @@
+/*----- Global Tags Here(Affects the Entire Page ) -----*/
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+}
+/*----- Global Tags Ends Here -----
+
+-----Header Starts Here -----*/
+.OuterHeadWrapp{
+	width: auto;
+	font-family: verdana;
+	font-size: 11px;
+	background-color: #242628;
+	
+}
+.InnerHeadWrapp{
+	width: 960px;
+	height: 10px;
+	margin: 0 auto;
+	padding: 20px 70px;
+	background-color: #242628;
+}
+.subscribe{
+	color: #485766	;
+	float: left;
+}
+.PostCommentEmail li{
+	color: #485766;
+	list-style-type: none;
+	float: left;
+}
+.PostCommentEmail li a{
+	color: #6a87a3;
+	text-decoration: none;
+	float: left;
+}
+.search{
+	padding: 0 5px;
+	float: right;
+}
+.search li{
+	padding: 0 5px;
+	float: left;
+}
+/*----- Header Ends here -----
+ 
+----- MainWrapp Wraps -----
+**Navigation
+**Cover
+**MainContent
+*/
+.MainWrapp{
+	background-color: #1d212a;
+}
+/*-----  Navigation Starts Here -----*/
+.OuterNavWrapp{
+	width: 1100px;
+	margin: 0 auto;
+	clear: both;
+}
+.InnerNavWrapp{
+	width: 890px;
+	height: 60px;
+	margin: 0 70px 0 80px;
+	padding-top: 30px;
+}
+.Logo{
+	float: left;
+}
+.LogoLine{
+	clear: both;
+	margin-top: 5px;
+	float: left;	
+	font-family: verdana;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #485766;
+}
+.Nav{
+	float: right;
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.Nav a{
+	text-decoration: none;
+	float: left;
+	color: #7a8090;
+	padding: 10px 15px;
+}
+.Nav a:hover{
+	color: #ffffff;
+	background-color: #16191f;
+}
+/* ----- Navigation ends Here -----
+
+----- MainContent Starts Here ----- */
+.OuterMainContentWrapp{
+	width: 945px;
+	height: 1410px;
+	background-color: #1b1e26;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+}
+.InnerMainContentWrapp{
+	width: 915px;
+	height: 1370px;
+	margin: auto;
+	background-color: #ffffff;
+	padding: 20px 0 5px 25px;
+}
+.ColumnOne{
+	float: left;
+	border-bottom: 1px dotted #4d5467;
+}
+.MainContentHeader img{
+	padding: 20px 0 5px 25px;
+}
+.ContentHead{
+	width: 525px;
+	float: left;
+	border-spacing: 10px;
+	border-bottom: 1px dotted;
+	padding: 20px 0 0 25px;
+	margin: 0;
+	font-family: arial;
+	font-size: 22px;
+	font-weight: bold;
+	color: #4d5467;
+}
+.ContentBody{
+	width: 590px;
+	margin: 0;
+}
+.ContentBody p{
+	padding-top: 15px;
+	color: #444955; 
+	font-family: verdana;
+	font-size: 12px;
+	text-align: justify;
+	margin: 0;
+}
+.cover{
+	width: 590px;
+	height: 285px;
+	margin-top: 20px;
+	border: 5px solid #eef0f4;
+}
+.LoremBox{
+	width: 560px;
+	height: 70px;
+	padding:0 20px;
+	background-color: #eef0f5;
+}
+.LoremBox p{
+	font-family: verdana;
+	color: #788093;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+}
+.OuterSideNavigation{
+	float: right;
+	width: 265px;
+	background-color: #eef0f5;
+}
+.OuterGuestHeader p{
+	width: 230px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	color: #747c93;
+}
+.OuterSideNavigation img{
+	padding: 15px;
+	float: left;
+}
+.leftHead{
+	width: 255px;
+	height:25px;
+	padding: 15px 0 10px 10px;
+	background-color: #9097a9;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+.OuterSiteNavigation{
+	clear: both;
+}
+.OuterSiteNavigation li{
+	color: #747c93;
+	width: 235px;
+	height: 45px;
+	background-color: #e0e3eb;
+	margin-bottom: 1px;
+	margin-left: 15px;
+}
+.Outer
+.number{
+	float: right;
+	color: #747c93;
+}
+.OuterCategories{
+	color: #747c93;
+}
+.OuterBlogArchive{
+	color: #747c93;
+}
+.OuterNetwork{
+	float: right;
+}
+.horizontal{
+	margin-top: 10px;
+	width: 252px;
+	height: 45px;
+	float: left;
+	background-color: #1d202a;
+}
+/* ----- MainContent Ends Here  ------
+
+----- Bottom Starts Here */
+.OuterBottomWrapp{
+	margin-top: 7px;
+	clear: both;
+}
+.InnerBottomWrapp{
+	width: 1100px;
+	height: 225px;
+	margin: 0 auto;
+	background-color: #0f131f;
+}
+.about{
+	float: left;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color: #8c94ac;
+	padding: 35px 0 0 50px; 
+}
+.about p{
+	margin: 0;
+	padding-bottom: 25px;
+}
+.about li{
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: normal;
+}
+.about li a{
+	color: #606574;
+}
+.categories{
+	float: left;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color: #8c94ac;
+	padding: 35px 0 0 55px; 
+}
+.categories p{
+	margin: 0;
+	padding-bottom: 25px;
+}
+.categories li{
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: normal;
+}
+.categories li a{
+	color: #606574;
+}
+.gallery{
+	float: left;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color: #8c94ac;
+	padding: 
+}
+.gallery p{
+	margin: 0px;
+	padding: 35px 0 0 60px;
+}
+.gallery li{
+	float: left;
+	padding: 5px;
+	margin: 5px;
+	background-color: #1b2232;
+}
+.TwitterUpdates{
+	width: 300px;
+	float: left;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 22px;
+	color: #8c94ac;
+	padding: 35px 0 0 50px;
+}
+.TwitterUpdates p{
+	margin: 0;
+	padding-bottom: 25px;
+}
+.TwitterText{
+	width: 275px;
+	height: 85px;
+	padding: 15px 15px 15px 10px;
+	background-color: #191f2f;
+	font-family: verdana;
+	font-weight: normal;
+	font-size: 12px;
+	color: #417893;
+}
+.TwitterText a{
+	color: #b8e2f6;
+}
+.bird{
+	float: right;
+}
+/* ----- Bottom Ends Here ----- 
+
+----- Footer Starts Here ----- */
+.OuterFooterWrapp{
+	clear: both;
+}
+.InnerFooterWrapp{
+	width: 1100px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #040507;
+	color: #7b89ab;
+	font-size: 11px;
+	font-family: verdana;
+}
+.InnerFooterWrapp p{
+	float: left;
+	margin: 0;
+	padding: 25px 0 0 70px;
+}
+.footer{
+	float: right;
+}
+.InnerFooterWrapp ul{
+	padding: 15px 80px 0 0;
+}
+.InnerFooterWrapp ul li{
+	float: left;
+	color: #7b89ab;
+	margin: 0;
+}
+.InnerFooterWrapp a{
+	color: #7b89ab;
+}
+.contentWrap {
+	float: left;
+}
